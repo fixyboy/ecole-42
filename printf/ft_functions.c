@@ -3,7 +3,7 @@ void ft_putnbr_hex(unsigned long n)
 {
     char *hex_base = "0123456789abcdef";
     if (n >= 16)
-        ft_putnbr_hex(n / 16); 
+        ft_putnbr_hex(n / 16);
     ft_putchar(hex_base[n % 16]);
 }
 int	ft_strlen(char *s)
